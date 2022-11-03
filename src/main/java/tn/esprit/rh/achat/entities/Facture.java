@@ -43,6 +43,7 @@ public class Facture implements Serializable {
     @OneToMany(mappedBy="facture")
     @JsonIgnore
     private Set<Reglement> reglements;
-// ce ci est un commentaire
+// ce ci est un premier commentaire
+
 	
 }
